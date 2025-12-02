@@ -38,6 +38,14 @@
 </p>
 </div>
 
+## 🔥 Highlights
+
+
+- 🏗️ A scalable simulation pipepline that synthesizes diverse and high-fidelity reactive driving scenarios with pseudo-expert. 
+- 🚀 An effective sim-real co-training strategy that improves robustness and generalization across end-to-end planners. 
+- 🔬 A comprehensive recipe that reveals crucial insights into the underlying scaling properties of sim-real learning systems.
+
+
 ## 📢 News
 
 - **[2025/12/1]** We released our [paper](https://arxiv.org/abs/2511.23369) on arXiv. 
