@@ -1,0 +1,52 @@
+_target_: navsim.common.dataclasses.SceneFilter
+_convert_: 'all'
+
+num_history_frames: 4
+num_future_frames: 10
+frame_interval: 1
+has_route: true
+
+max_scenes: null
+log_names: null # list of log names to extract scenes from, if null, all logs are extracted
+tokens:
+  - "a5efa651fec451b5"
+  - "d1c281e277d1532d"
+  - "ac0c803827d65b80"
+  - "8ec0cd02d7705766"
+  - "2111b648fcba5bb7"
+  - "9610b02bc4ec529c"
+  - "b29743e5885f5514"
+  - "3c077c8da4615b33"
+  - "6fc06c6e4d1752a1"
+  - "e5a146299341551a"
+  - "b214f8e744075e96"
+  - "046fd63cb514581a"
+  - "af9f5f6fa1ad5182"
+  - "7cc94c33bbe052d7"
+  - "f383acca25ff59eb"
+  - "de864917fc075773"
+  - "27decc74a57b53ac"
+  - "4789245424875682"
+  - "9b5c00687d4e590b"
+  - "c18771a3868f5868"
+  - "c97bad66929c58d1"
+  - "4615024da7765d62"
+  - "1fc1dd0dc3d157ae"
+  - "78e6ea95b854551c"
+  - "c853ae7a361f54d9"
+  - "7200dcdd4ad05210"
+  - "72dac45a812f56fb"
+  - "a64cd79798845d53"
+  - "7b9cc1b02566583e"
+  - "de681a4826e35220"
+  - "c18f8cfc41385d8c"
+  - "7e1f829a0de95258"
+  - "12a68a4c440c5396"
+  - "5e8f9f6ab5695769"
+  - "471f7ca3148659cd"
+  - "aa784b6564cb56a3"
+  - "70df39aae7b05204"
+  - "1bac9ad3b5795fb9"
+  - "7543fb2f2dcf5c7e"
+  - "35d813d8de5854f9"
+  - "4fea3406427a52de"

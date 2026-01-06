@@ -1,0 +1,4 @@
+defaults:
+  - scene_filter: navtiny
+
+data_split: tiny

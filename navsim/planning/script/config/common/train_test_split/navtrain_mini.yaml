@@ -1,0 +1,4 @@
+defaults:
+  - scene_filter: navtrain_mini
+
+data_split: navtrain_mini

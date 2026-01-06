@@ -1,0 +1,53 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+_target_: navsim.agents.gtrs_dense.gtrs_agent.GTRSAgent
+_convert_: 'all'
+pdm_gt_path: ${oc.env:OPENSCENE_DATA_ROOT}/traj_pdm_v2/ori/navtrain_16384.pkl
+
+config:
+  _target_: navsim.agents.gtrs_dense.hydra_config.HydraConfig
+  _convert_: 'all'
+  vocab_path: ${oc.env:NAVSIM_DEVKIT_ROOT}/traj_final/16384.npy
+  ckpt_path: hydra_plus_16384_ckpt
+  vocab_size: 16384
+  lidar_seq_len: 4
+  sigma: 0.5
+  trajectory_imi_weight: 1.0
+  progress_weight: 2.0
+
+  vocab_dropout: True
+
+  normalize_vocab_pos: True
+
+  camera_width: 2048
+  camera_height: 512
+  img_vert_anchors: 16
+  img_horz_anchors: 64
+  backbone_type: 'resnet'  # 'vov' or 'resnet'
+
+  bkb_path: ${oc.env:OPENSCENE_DATA_ROOT}/models/resnet34_model.bin
+  vov_ckpt: ${oc.env:OPENSCENE_DATA_ROOT}/models/dd3d_det_final.pth
+  lr_mult_backbone: 1.0
+
+  trajectory_sampling:
+    _target_: nuplan.planning.simulation.trajectory.trajectory_sampling.TrajectorySampling
+    _convert_: 'all'
+    time_horizon: 4
+    interval_length: 0.1
+
+checkpoint_path: null
+lr: 1e-4
+max_epochs: 50
