@@ -69,12 +69,12 @@
 
 ## 📌 Table of Contents
 
-- 🏛️ [Model Zoo](#-model-zoo)
+- 🏛️ [Model Zoo](#%EF%B8%8F-model-zoo)
 - 🎯 [Getting Started](#-getting-started)
 - 📦 [Data Preparation](#-data-preparation)
   - [Download Dataset](#1-download-dataset)
   - [Set Up Configuration](#2-set-up-configuration)
-- ⚙️ [Sim-Real Co-Training](#-sim-real-co-training-recipe)
+- ⚙️ [Sim-Real Co-Training](#%EF%B8%8F-sim-real-co-training-recipe)
   - [Co-Training with Pseudo-Expert](#co-training-with-pseudo-expert)
   - [Co-Training with Rewards Only](#co-training-with-rewards-only)
 - 🔍 [Inference](#-inference)
