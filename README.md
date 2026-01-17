@@ -204,7 +204,7 @@ Our released simulation data is based on [nuPlan](https://www.nuscenes.org/nupla
 
 ### 1. Download Dataset
 
-We provide 🤗 [Script (Hugging Face)](./tools/download_hf.sh) and 👾 [Script (ModelScope)](./tools/download_ms) (users in China) for downloading the simulation data .
+We provide 🤗 [Script (Hugging Face)](./tools/download_hf.sh) and 👾 [Script (ModelScope)](./tools/download_ms.sh) (users in China) for downloading the simulation data .
 
 Our simulation data format follows that of [OpenScene](https://github.com/OpenDriveLab/OpenScene/blob/main/docs/getting_started.md#download-data), with each clip/log has a fixed temporal horizon of 6 seconds at 2 Hz (2 s history + 4 s future), which are stored separately in `sensor_blobs_hist` and `sensor_blobs_fut`, respectively. 
 **For policy training, `sensor_blobs_hist` alone is sufficient.**
