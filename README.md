@@ -44,7 +44,7 @@
 📰 [Media](https://mp.weixin.qq.com/s/OGV3Xlb0bHSSSloG11qFJA) | 
 🗂️ [Slides](https://docs.google.com/presentation/d/1FtvTF_5Y6CPOWUnfwOp1JUcYPwgffVFBOlzBs_RDOmI/edit?usp=sharing) | 
 🪧 [Poster](https://docs.google.com/presentation/d/1OrEj_llLyHPK8uSj_tmiam5T3BMYXoNPUjEw5h1_slk/edit?usp=sharing) |
-🎬 [Talk (in Chinese)](https://www.bilibili.com/video/BV1tqrEBNECQ)
+🎬 [CVPR Oral Pre](https://youtu.be/7yopMOFDlFQ?si=uopeS3VXIWyPs_gU&t=1550) / [Talk (in Chinese)](https://www.bilibili.com/video/BV1tqrEBNECQ)
 > - 🖊️ Joint effort by CASIA, OpenDriveLab at HKU, and Xiaomi EV.
 
 ---
