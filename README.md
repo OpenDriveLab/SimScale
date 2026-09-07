@@ -500,6 +500,18 @@ We acknowledge all the open-source contributors for the following projects to ma
 
 - [NAVSIM](https://github.com/autonomousvision/navsim) | [MTGS](https://github.com/OpenDriveLab/MTGS) | [GTRS](https://github.com/NVlabs/GTRS) | [DiffusionDrive](https://github.com/hustvl/DiffusionDrive)
 
+## Awesome Community Projects with SimScale
+
+The SimScale community continues to grow, with projects building on and extending its real-world simulation and sim-real co-training framework for end-to-end autonomous driving. Here are some awesome community projects:
+
+- [AlpaSim](https://github.com/NVlabs/alpasim) | NVIDIA | An open-source platform for developing and testing e2e driving policies.
+- [World Engine](https://github.com/OpenDriveLab/WorldEngine) | Huawei & HKU | A post-training framework for e2e driving.
+- [DrivoR](https://github.com/valeoai/DrivoR/) | Valeo.ai | An e2e driving model based on driving on registers.
+- [DriveZero](https://github.com/XiaomiAutoL3/DriveZero) | Xiaomi EV | An e2e driving policy beyond human demonstrations.
+- [AutoScale](https://arxiv.org/abs/2605.21372) | Li Auto | An efficient data mixture strategy for selecting high-value synthetic data.
+- [DriveVLA-M0](https://github.com/ZebinX/DriveVLA-M0) | Chang'an Tech & CASIA | A failure-aware memory augmentation method for e2e driving.
+- [TE-E2E](https://github.com/ZZongzheng0918/TE-Aware-E2E-AD) | Bosch & THU | A plug-and-play traffic-element awareness method for e2e driving.
+
 ## ⭐ License and Citation
 
 All content in this repository is under the [Apache-2.0 license](https://www.apache.org/licenses/LICENSE-2.0).
