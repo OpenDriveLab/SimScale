@@ -1,0 +1,3 @@
+data_split: synthetic_reaction_pdm_v1.0-2
+defaults:
+- scene_filter: synthetic_reaction_pdm_v1.0-2

@@ -1,3 +1,0 @@
-data_split: navtrain_reaction_pdm_v1.0-4
-defaults:
-- scene_filter: navtrain_reaction_pdm_v1.0-4

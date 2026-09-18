@@ -1,4 +1,4 @@
-export split=YOUR_SYN_DATASET # e.g. navtrain_reaction_pdm_v1.0-0
+export split=YOUR_SYN_DATASET # e.g. synthetic_reaction_pdm_v1.0-0
 export part=1 # 1,2, ..., 32
 export PROGRESS_MODE=gen_gt
 export POSTFIX=v3

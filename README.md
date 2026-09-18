@@ -233,7 +233,7 @@ Our simulation data format follows that of [OpenScene](https://github.com/OpenDr
   <th colspan="6">Planner-based Pseudo-Expert</th>
 
   <tr >
-    <td><a href="./navsim/planning/script/config/common/train_test_split/scene_filter/navtrain_reaction_pdm_v1.0-0.yaml">reaction_pdm_v1.0-0</a></td>
+    <td><a href="./navsim/planning/script/config/common/train_test_split/scene_filter/synthetic_reaction_pdm_v1.0-0.yaml">reaction_pdm_v1.0-0</a></td>
     <td>65K</td>
     <td>9.9GB</td>
     <td>569GB</td>
@@ -244,7 +244,7 @@ Our simulation data format follows that of [OpenScene](https://github.com/OpenDr
   </tr>
 
   <tr>
-    <td><a href="./navsim/planning/script/config/common/train_test_split/scene_filter/navtrain_reaction_pdm_v1.0-1.yaml">reaction_pdm_v1.0-1</a></td>
+    <td><a href="./navsim/planning/script/config/common/train_test_split/scene_filter/synthetic_reaction_pdm_v1.0-1.yaml">reaction_pdm_v1.0-1</a></td>
     <td>55K</td>
     <td>8.5GB</td>
     <td>448GB</td>
@@ -255,7 +255,7 @@ Our simulation data format follows that of [OpenScene](https://github.com/OpenDr
   </tr>
 
   <tr>
-    <td><a href="./navsim/planning/script/config/common/train_test_split/scene_filter/navtrain_reaction_pdm_v1.0-2.yaml">reaction_pdm_v1.0-2</a></td>
+    <td><a href="./navsim/planning/script/config/common/train_test_split/scene_filter/synthetic_reaction_pdm_v1.0-2.yaml">reaction_pdm_v1.0-2</a></td>
     <td>46K</td>
     <td>6.9GB</td>
     <td>402GB</td>
@@ -266,7 +266,7 @@ Our simulation data format follows that of [OpenScene](https://github.com/OpenDr
   </tr>
 
   <tr>
-    <td><a href="./navsim/planning/script/config/common/train_test_split/scene_filter/navtrain_reaction_pdm_v1.0-3.yaml">reaction_pdm_v1.0-3</a></td>
+    <td><a href="./navsim/planning/script/config/common/train_test_split/scene_filter/synthetic_reaction_pdm_v1.0-3.yaml">reaction_pdm_v1.0-3</a></td>
     <td>38K</td>
     <td>5.6GB</td>
     <td>333GB</td>
@@ -277,7 +277,7 @@ Our simulation data format follows that of [OpenScene](https://github.com/OpenDr
   </tr>
 
   <tr>
-    <td><a href="./navsim/planning/script/config/common/train_test_split/scene_filter/navtrain_reaction_pdm_v1.0-4.yaml">reaction_pdm_v1.0-4</a></td>
+    <td><a href="./navsim/planning/script/config/common/train_test_split/scene_filter/synthetic_reaction_pdm_v1.0-4.yaml">reaction_pdm_v1.0-4</a></td>
     <td>32K</td>
     <td>4.7GB</td>
     <td>279GB</td>
@@ -290,7 +290,7 @@ Our simulation data format follows that of [OpenScene](https://github.com/OpenDr
   <th colspan="6">Recovery-based Pseudo-Expert</th>
 
   <tr>
-    <td><a href="./navsim/planning/script/config/common/train_test_split/scene_filter/navtrain_reaction_recovery_v1.0-0.yaml">reaction_recovery_v1.0-0</a></td>
+    <td><a href="./navsim/planning/script/config/common/train_test_split/scene_filter/synthetic_reaction_recovery_v1.0-0.yaml">reaction_recovery_v1.0-0</a></td>
     <td>45K</td>
     <td>6.8GB</td>
     <td>395GB</td>
@@ -301,7 +301,7 @@ Our simulation data format follows that of [OpenScene](https://github.com/OpenDr
   </tr>
 
   <tr>
-    <td><a href="./navsim/planning/script/config/common/train_test_split/scene_filter/navtrain_reaction_recovery_v1.0-1.yaml">reaction_recovery_v1.0-1</td>
+    <td><a href="./navsim/planning/script/config/common/train_test_split/scene_filter/synthetic_reaction_recovery_v1.0-1.yaml">reaction_recovery_v1.0-1</td>
     <td>36K</td>
     <td>5.5GB</td>
     <td>316GB</td>
@@ -312,7 +312,7 @@ Our simulation data format follows that of [OpenScene](https://github.com/OpenDr
   </tr>
 
   <tr>
-    <td><a href="./navsim/planning/script/config/common/train_test_split/scene_filter/navtrain_reaction_recovery_v1.0-2.yaml">reaction_recovery_v1.0-2</td>
+    <td><a href="./navsim/planning/script/config/common/train_test_split/scene_filter/synthetic_reaction_recovery_v1.0-2.yaml">reaction_recovery_v1.0-2</td>
     <td>28K</td>
     <td>4.3GB</td>
     <td>244GB</td>
@@ -323,7 +323,7 @@ Our simulation data format follows that of [OpenScene](https://github.com/OpenDr
   </tr>
 
   <tr>
-    <td><a href="./navsim/planning/script/config/common/train_test_split/scene_filter/navtrain_reaction_recovery_v1.0-3.yaml">reaction_recovery_v1.0-3</td>
+    <td><a href="./navsim/planning/script/config/common/train_test_split/scene_filter/synthetic_reaction_recovery_v1.0-3.yaml">reaction_recovery_v1.0-3</td>
     <td>22K</td>
     <td>3.3GB</td>
     <td>189GB</td>
@@ -334,7 +334,7 @@ Our simulation data format follows that of [OpenScene](https://github.com/OpenDr
   </tr>
 
   <tr>
-    <td><a href="./navsim/planning/script/config/common/train_test_split/scene_filter/navtrain_reaction_recovery_v1.0-4.yaml">reaction_recovery_v1.0-4</td>
+    <td><a href="./navsim/planning/script/config/common/train_test_split/scene_filter/synthetic_reaction_recovery_v1.0-4.yaml">reaction_recovery_v1.0-4</td>
     <td>17K</td>
     <td>2.7GB</td>
     <td>148GB</td>
@@ -452,7 +452,7 @@ export SYN_GT=pdm  # pdm, recovery
 
 
 
-In addition, the cache path for simulation data is hard-coded in [dataset.py#136](./navsim/planning/training/dataset.py#L136). Please make sure the path is correctly set to your local simulation data directory before training.
+Simulation feature and target caches are loaded from `${NAVSIM_EXP_ROOT}/cache/synthetic_reaction_${SYN_GT}_v1.0-${idx}_cache` in [dataset.py#136](./navsim/planning/training/dataset.py#L136), where `idx` ranges from 0 through `SYN_IDX`. Generate these caches with [run_dataset_cache.sh](./scripts/training/run_dataset_cache.sh), setting `TRAIN_TEST_SPLIT` to the corresponding `synthetic_reaction_*` split. If you already have caches under the old split names, rename those cache directories to match this convention before training.
 - **Regression-based Policy | *LTF***
 
 We provide a [Script](./scripts/training/run_transfuser_training_syn.sh) to train LTF with 8 GPUs for 100 epochs.

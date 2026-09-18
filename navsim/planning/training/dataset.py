@@ -133,7 +133,7 @@ class CacheOnlyDataset(torch.utils.data.Dataset):
                 self.log_names.append(syn_log_names)
 
             # 2 add cache data path list
-            cache_path = cache_base / f'navtrain_reaction_{SYN_GT}_v1.0-{idx}_cache'
+            cache_path = cache_base / f'synthetic_reaction_{SYN_GT}_v1.0-{idx}_cache'
             for log_name in tqdm(syn_log_names, desc=f"Split {self.split} Loading Syn Caches for {SYN_GT}_v1.0-{idx}"):
                 log_path = cache_path / log_name
                 for token_path in log_path.iterdir():
